@@ -6,7 +6,6 @@ body {
     color: white;
 }
 
-/* ---------- TOP HEADER ---------- */
 
 .top-header {
     display: flex;
@@ -29,8 +28,6 @@ body {
 .score-item span {
     font-weight: bold;
 }
-
-/* ---------- MAIN GAME AREA ---------- */
 
 .game-container {
     display: flex;
@@ -71,3 +68,28 @@ body {
     transform: scale(1.5);
 }
 
+.log-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.log-box {
+    background: #2a2c39;
+    padding: 20px;
+    border-radius: 12px;
+    width: 70%;
+    margin: 0 auto;
+    height: 220px;
+    overflow-y: auto;
+    font-size: 18px;
+    line-height: 1.6;
+    border: 2px solid #3a3c4a;
+}
+
+.log-box ::-webkit-scrollbar{
+    width: 10px;
+}
+.log-box::-webkit-scrollbar-thumb {
+    background: #505268;
+    border-radius: 8px;
+}
